@@ -85,7 +85,7 @@ function appendBookmark(bookmark) {
 
 function generateElement(ele, data) {
 
-    //Loading favicon from google
+    //making URL of favicon
     let faviconURL = `http://www.google.com/s2/favicons?domain=${data.URL}`;
     
     //setting class and ID and item HTML
